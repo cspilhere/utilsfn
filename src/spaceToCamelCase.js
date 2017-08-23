@@ -1,4 +1,4 @@
-export function spaceToCamelCase(string) {
+export default function spaceToCamelCase(string) {
   if (!string) return string;
   let newString = '';
   string = removeAccents(string);

@@ -1,5 +1,5 @@
 import _Object$keys from 'babel-runtime/core-js/object/keys';
-export function searchArray(array, filterBy, exact) {
+export default function searchArray(array, filterBy, exact) {
   if (typeof filterBy !== 'string') return [];
   var text = (filterBy || '').split(',');
   var newData = [];

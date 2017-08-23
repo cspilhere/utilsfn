@@ -1,4 +1,4 @@
-export function searchArray(array, filterBy, exact) {
+export default function searchArray(array, filterBy, exact) {
   if (typeof filterBy !== 'string') return [];
   let text = (filterBy || '').split(',');
   let newData = [];

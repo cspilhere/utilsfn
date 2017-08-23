@@ -1,4 +1,4 @@
-export function dashToCamelCase(string) {
+export default function dashToCamelCase(string) {
   if (!string) return string;
   var newString = '';
   string = string.split('-');
